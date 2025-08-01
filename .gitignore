@@ -1,0 +1,94 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+venv-*/
+ENV/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# Model outputs and checkpoints
+model/output_*/
+
+# Data files
+*.csv
+*.jsonl
+
+# Shell script output
+*.sh~
+
+# Logs
+*.log
+
+# Ignore config secrets
+config/config.yaml
+config/config.json
+
+# Ignore test cache
+.pytest_cache/
+
+# Ignore pip cache
+pip-wheel-metadata/
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+
+# Ignore mypy
+.mypy_cache/
+.dmypy.json
+
+# Ignore profiling data
+.prof
+
+# Ignore backup files
+*~
+*.bak
+
+# Ignore system files
+Thumbs.db
+
+# Ignore tokenizers cache
+*.tokenizers
+
+.env
+/data
+/model
+/preprocessing/data_extractor.py
